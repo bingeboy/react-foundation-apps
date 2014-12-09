@@ -26,7 +26,7 @@ gulp.task('server', ['copy', 'sass'], function (callback) {
     contentBase: './build',
     hot: true,
     debug: true
-  }).listen(8000, 'localhost', function (err, result) {
+  }).listen(9000, 'localhost', function (err, result) {
     
   });
 });
